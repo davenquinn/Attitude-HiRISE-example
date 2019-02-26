@@ -13,6 +13,9 @@ SHAPEFILE="data/Stratified_basement_lines.shp"
 
 # Transform to northeast Syrtis CRS
 # (same one in Quinn & Ehlmann 2019)
+# Important: adjust for different data; this CRS is only valid
+# over a small area of Mars' surface!
+# See https://proj4.org/usage/projections.html for help
 syrtis = {
     'proj': 'tmerc',
     'lat_0': 17,
