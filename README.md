@@ -24,9 +24,11 @@ Then, install the required python modules:
 pip install -r requirements.txt
 ```
 
-Finally, open the Jupyter notebook (you may need to separately install Jupyter
-or download Nteract if you don't already have them installed), and run all the
-cells. You should see a visualization of the orientations.
+Finally, open the Jupyter notebook file using
+`jupyter notebook Visualize-Results.ipynb` and run all the
+cells. You should see an interactive visualization of the
+orientations. You can modify these and run other calculations
+on the results as desired.
 
 ## Modifying for new data
 

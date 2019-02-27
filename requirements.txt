@@ -3,5 +3,6 @@ Fiona>=1.5
 pyproj
 Shapely
 numpy
-attitude>=0.3.3
+attitude>=0.4.0
 ipykernel
+jupyter
